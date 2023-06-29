@@ -1,0 +1,38 @@
+form {
+  display: flex;
+  flex-direction: row;
+}
+#tabel_container {
+  display: flex;
+  flex-direction: column;
+  /* align-content: center; */
+  justify-content: center;
+}
+.tabel_1 {
+  width: 90%;
+  border-spacing: 0px;
+}
+
+.tabel_1 th,
+td {
+  vertical-align: top;
+  border: 1px solid #000;
+  text-align: center;
+}
+tr:hover {
+  background-color: #d6eeee;
+}
+/* .tabel_1 th:nth-child(1),
+td:nth-child(1) {
+  width: 10px;
+}
+
+.tabel_1 th:nth-child(2),
+td:nth-child(2) {
+  width: 40%;
+}
+
+.tabel_1 th:nth-child(3),
+td:nth-child(3) {
+  width: 10%;
+} */
